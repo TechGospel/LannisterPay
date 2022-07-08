@@ -1,0 +1,25 @@
+{
+	"name": "LannisterPay",
+	"version": "1.0.0",
+	"description": "This repository is an implementation of LannisterPay, an hypothetical transaction payment splitting solution that splits the payment for a transaction among multiple payment entities",
+	"main": "App.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://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@github.com/TechGospel/LannisterPay.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TechGospel/LannisterPay/issues"
+	},
+	"homepage": "https://github.com/TechGospel/LannisterPay#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.1",
+		"json-parser": "^3.1.2"
+	}
+}
