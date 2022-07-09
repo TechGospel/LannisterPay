@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import compute from "./Controllers/split-payments";
 
 //Server declaration
 const App = express();
@@ -17,3 +18,5 @@ App.listen(port, () => {
 App.get("/", (req, res) => {
 	res.send("Welcome home");
 });
+
+App.post("/split-payments/compute", compute(req, res));
